@@ -1,15 +1,23 @@
 -IC:\Users\Baden\.platformio\packages\framework-arduinoespressif8266\tools\sdk\include
 -IC:\Users\Baden\.platformio\packages\framework-arduinoespressif8266\tools\sdk\lwip\include
 -IC:\Users\Baden\.platformio\packages\framework-arduinoespressif8266\cores\esp8266
--IC:\Users\Baden\.platformio\packages\framework-arduinoespressif8266\variants\generic
--IC:\Google Drive\holiday projects\IOTKettle\.piolibdeps\NTPClient_ID551
--IC:\Google Drive\holiday projects\IOTKettle\.piolibdeps\OneWire_ID1
+-IC:\Users\Baden\.platformio\packages\framework-arduinoespressif8266\variants\nodemcu
+-IC:\Google Drive\holiday projects\IOTKettle\.piolibdeps\ArduinoJson_ID64
 -IC:\Users\Baden\.platformio\packages\framework-arduinoespressif8266\libraries\ESP8266WiFi\src
 -IC:\Google Drive\holiday projects\IOTKettle\.piolibdeps\ESPAsyncTCP_ID305\src
 -IC:\Google Drive\holiday projects\IOTKettle\.piolibdeps\AsyncMqttClient_ID346\src
--IC:\Google Drive\holiday projects\IOTKettle\.piolibdeps\DallasTemperature_ID54
+-IC:\Users\Baden\.platformio\packages\framework-arduinoespressif8266\libraries\ESP8266mDNS
+-IC:\Users\Baden\.platformio\packages\framework-arduinoespressif8266\libraries\ArduinoOTA
 -IC:\Users\Baden\.platformio\packages\framework-arduinoespressif8266\libraries\ESP8266HTTPClient\src
+-IC:\Google Drive\holiday projects\IOTKettle\.piolibdeps\OneWire_ID1
+-IC:\Google Drive\holiday projects\IOTKettle\.piolibdeps\NTPClient_ID551
+-IC:\Users\Baden\.platformio\packages\framework-arduinoespressif8266\libraries\ESP8266WebServer\src
+-IC:\Users\Baden\.platformio\packages\framework-arduinoespressif8266\libraries\ESP8266HTTPUpdateServer\src
+-IC:\Google Drive\holiday projects\IOTKettle\.piolibdeps\DallasTemperature_ID54
+-IC:\Google Drive\holiday projects\IOTKettle\.piolibdeps\ESPManager_ID1480
 -IC:\Google Drive\holiday projects\IOTKettle\src
+-IC:\Google Drive\holiday projects\IOTKettle\.piolibdeps\ArduinoJson_ID64
+-IC:\Google Drive\holiday projects\IOTKettle\.piolibdeps\ArduinoJson_ID64
 -IC:\Google Drive\holiday projects\IOTKettle\.piolibdeps\AsyncMqttClient_ID346\src
 -IC:\Users\Baden\.platformio\packages\framework-arduinoespressif8266\libraries\ESP8266WiFi\src
 -IC:\Google Drive\holiday projects\IOTKettle\.piolibdeps\ESPAsyncTCP_ID305\src
@@ -20,6 +28,7 @@
 -IC:\Google Drive\holiday projects\IOTKettle\.piolibdeps\ESPAsyncTCP_ID305\src
 -IC:\Users\Baden\.platformio\packages\framework-arduinoespressif8266\libraries\ESP8266WiFi\src
 -IC:\Google Drive\holiday projects\IOTKettle\.piolibdeps\ESPAsyncTCP_ID305\src
+-IC:\Google Drive\holiday projects\IOTKettle\.piolibdeps\ESPManager_ID1480
 -IC:\Google Drive\holiday projects\IOTKettle\.piolibdeps\NTPClient_ID551
 -IC:\Google Drive\holiday projects\IOTKettle\.piolibdeps\NTPClient_ID551
 -IC:\Google Drive\holiday projects\IOTKettle\.piolibdeps\OneWire_ID1
@@ -58,4 +67,4 @@
 -DPLATFORMIO=30201
 -DESP8266
 -DARDUINO_ARCH_ESP8266
--DARDUINO_ESP8266_ESP01
+-DARDUINO_ESP8266_ESP12
